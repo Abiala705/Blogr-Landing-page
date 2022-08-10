@@ -1,7 +1,5 @@
 Product Overview Pricing Marketplace Features Integrations Company About
-Team Blog Careers Connect Contact Newsletter LinkedIn Login Sign Up A modern
-publishing platform Grow your audience and build your online brand Start for
-Free Learn More Designed for the future Introducing an extensible editor
+Team Blog Careers Connect Contact Newsletter LinkedIn Login Sign Up Designed for the future Introducing an extensible editor
 Blogr features an exceedingly intuitive interface which lets you focus on
 one thing: creating content. The editor supports management of multiple
 blogs and allows easy manipulation of embeds such as images, videos, and

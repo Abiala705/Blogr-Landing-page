@@ -1,6 +1,37 @@
-$primary: hsl(356, 100%, 66%);
-$secondary: hsl(355, 100%, 74%);
-$primary-blue: hsl(208, 49%, 24%);
+// $primary: hsl(356, 100%, 66%);
+// $light: hsl(355, 100%, 74%);
+// $secondary: hsl(208, 49%, 24%);
 
+// $body-bg-light: hsl(13, 100%, 72%);
+// $body-bg-very-light: hsl(353, 100%, 62%);
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-theme-colors: (
+  // Primary colors
+  "lightred": hsl(356, 100%, 66%),
+  "verylightred": hsl(355, 100%, 74%),
+  "verydarkblue": hsl(208, 49%, 24%),
+  // Neutral
+  "white": hsl(0, 0%, 100%),
+  "grayishblue": hsl(240, 2%, 79%),
+  "darkgrayishblue": hsl(207, 13%, 34%),
+  "verydarkgrayishblue": hsl(240, 10%, 16%),
+  // Gradient
+  // Intro/CTA mobile nav
+  "grdverylightred": hsl(13, 100%, 72%),
+  "grdlightred": hsl(353, 100%, 62%),
+  // Body
+  "bodyverydarkgrayblue": hsl(237, 17%, 21%),
+  "bodyverydarkdesaturatedblue": hsl(237, 23%, 32%)
+);
+
+// Changes the width of the mobile and desktop breakpoints
+$grid-breakpoints: (
+  lg: 1440px,
+  sm: 375px,
+);
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
