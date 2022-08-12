@@ -4,7 +4,7 @@ body {
 
 #intro {
   background-color: hsl(356, 100%, 66%);
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -121,4 +121,12 @@ h3 {
 .footer-item:hover {
   text-decoration: underline;
   color: hsl(240, 2%, 79%);
+}
+
+.mar {
+  margin-top: 128px;
+}
+
+.neg--mar {
+  margin-top: -100px;
 }
