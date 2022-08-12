@@ -83,7 +83,7 @@ nav {
   background-repeat: no-repeat;
   border-top-right-radius: 200px;
   height: 100%;
-  border-bottom-left-radius: 200px;
+  border-bottom-left-radius: 100px;
 }
 
 .company-text,
