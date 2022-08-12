@@ -101,14 +101,14 @@
       >
         <h1 class="display-3 py-5 mt-5">A modern publishing platform</h1>
         <p class="lead">Grow your audience and build your online brand</p>
-        <div class="row justify-content-center align-content-center mt-5">
-          <div class="col-2">
-            <button type="button" class="btn btn-start btn-lg">
+        <div class="row justify-content-center align-content-center mt-5 g-0">
+          <div class="col-3">
+            <button type="button" class="btn btn-lg btn-start">
               Start for Free
             </button>
           </div>
-          <div class="col-2">
-            <button class="btn btn-learn btn-lg">Learn More</button>
+          <div class="col-3">
+            <button class="btn btn-lg btn-learn">Learn More</button>
           </div>
         </div>
       </div>
@@ -168,7 +168,9 @@
           <div
             class="col-12 col-lg-6 company-text d-flex justify-content-center align-items-center extra--p pb-5 mt-lg-5 text-center text-lg-start"
           >
-            <div class="mt-5 align-items-center justify-content-center mt-sm-1">
+            <div
+              class="mt-5 d-sm-flex row align-items-center justify-content-center mt-sm-1"
+            >
               <h3 class="text-center text-lg-start company--header">
                 State of the Art Infrastructure
               </h3>
@@ -225,24 +227,41 @@
     <!-- Footer -->
     <section id="footer" class="footer-bg">
       <div class="container-lg mt-5">
-        <div class="row mt-3">
+        <div class="row mt-3 d-flex justify-content-center align-items-center">
           <div class="col-3">
-            <a href="#" class="ms-5">
+            <a href="#" class="ms-lg-5 mt-5">
               <img src="/images/logo.svg" alt="logo" class="img-fluid mt-5" />
             </a>
           </div>
-          <div class="col-3">
-            <h3 class="header--footer mt-5">Product</h2>
-            <ul class="product-list">
-              <li><a href="#" class="product-item">Overview</a></li>
-              <li><a href="#" class="product-item">Overview</a></li>
-              <li><a href="#" class="product-item">Overview</a></li>
-              <li><a href="#" class="product-item">Overview</a></li>
-              <li><a href="#" class="product-item">Overview</a></li>
+          <div
+            class="col-12 col-lg-3 d-flex row g-3 align-items-center justify-content-center"
+          >
+            <h4 class="header--footer mt-5 ms-5">Product</h4>
+            <ul class="footer-list d-flex row ms-1">
+              <li><a href="#" class="footer-item">Overview</a></li>
+              <li><a href="#" class="footer-item">Pricing</a></li>
+              <li><a href="#" class="footer-item">Marketplace</a></li>
+              <li><a href="#" class="footer-item">Features</a></li>
+              <li><a href="#" class="footer-item">Integration</a></li>
             </ul>
           </div>
-          <div class="col-3"></div>
-          <div class="col-3"></div>
+          <div class="col-12 col-lg-3 d-flex row g-3">
+            <h4 class="header--footer mt-5 ms-3">Company</h4>
+            <ul class="footer-list d-flex row ms-1">
+              <li><a href="#" class="footer-item">About</a></li>
+              <li><a href="#" class="footer-item">Team</a></li>
+              <li><a href="#" class="footer-item">Blog</a></li>
+              <li><a href="#" class="footer-item">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3 d-flex row pt-3">
+            <h4 class="header--footer mt-5 ms-3">Connect</h4>
+            <ul class="footer-list d-flex row ms-1">
+              <li><a href="#" class="footer-item">Contact</a></li>
+              <li><a href="#" class="footer-item">Newsletter</a></li>
+              <li><a href="#" class="footer-item">LinkedIn</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
@@ -256,7 +275,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Abiala Israel</a>.
     </div>
   </body>
 </html>
