@@ -4,7 +4,7 @@ body {
 
 #intro {
   background-color: hsl(356, 100%, 66%);
-  height: 70vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -15,6 +15,29 @@ nav {
   background-color: hsl(356, 100%, 66%);
 }
 
+.nav-bar-sm {
+  background-color: white;
+  height: 100vh;
+}
+
+span {
+  color: hsla(0, 0%, 100%, 0.664);
+}
+span:hover {
+  color: hsl(0, 0%, 100%);
+  text-decoration: underline;
+}
+
+.drp {
+  color: hsl(237, 17%, 21%);
+}
+
+.drp:hover {
+  color: hsl(240, 10%, 16%);
+  background-color: white;
+  font-weight: 500;
+  transition: all 0.5s;
+}
 .nav-link {
   color: hsl(0, 0%, 100%);
 }
@@ -83,7 +106,7 @@ nav {
   background-repeat: no-repeat;
   border-top-right-radius: 200px;
   height: 100%;
-  border-bottom-left-radius: 200px;
+  border-bottom-left-radius: 100px;
 }
 
 .company-text,

@@ -58,33 +58,58 @@
         class="collapse navbar-collapse align-items-left ms-auto-lg"
         id="main-nav"
       >
-        <ul class="navbar-nav d-flex me-5">
-          <li class="nav-item">
-            <a href="#product" class="nav-link">
-              <span>Product</span
-              ><img
-                src="/images/icon-arrow-light.svg"
-                alt="arrow-light"
-                class="ms-1"
-            /></a>
+        <ul class="navbar-nav d-flex me-5 g-3">
+          <li class="nav-item dropdown">
+            <a
+              href="#product"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <span>Product</span></a
+            >
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item drp" href="#">Overview</a></li>
+              <li><a class="dropdown-item drp" href="#">Pricing</a></li>
+              <li><a class="dropdown-item drp" href="#">Marketplace</a></li>
+              <li><a class="dropdown-item drp" href="#">Features</a></li>
+              <li><a class="dropdown-item drp" href="#">Integrations</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a href="#company" class="nav-link"
+          <li class="nav-item dropdown">
+            <a
+              href="#company"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
               ><span>Company</span>
-              <img
-                src="/images/icon-arrow-light.svg"
-                alt="arrow-light"
-                class="ms-1"
-            /></a>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item drp" href="#">About</a></li>
+              <li><a class="dropdown-item drp" href="#">Team</a></li>
+              <li><a class="dropdown-item drp" href="#">Blog</a></li>
+              <li><a class="dropdown-item drp" href="#">Careers</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a href="#connect" class="nav-link"
+          <li class="nav-item dropdown">
+            <a
+              href="#connect"
+              class="nav-link dropdown-toggle"
+              id="navbarDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
               ><span>Connect</span>
-              <img
-                src="/images/icon-arrow-light.svg"
-                alt="arrow-light"
-                class="ms-1"
-            /></a>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item drp" href="#">Contact</a></li>
+              <li><a class="dropdown-item drp" href="#">Newsletter</a></li>
+              <li><a class="dropdown-item drp" href="#">LinkedIn</a></li>
+            </ul>
           </li>
           <li class="nav-item"><a href="#login" class="nav-link">Login</a></li>
           <li class="nav-item">
@@ -99,7 +124,7 @@
       <div
         class="text-center row d-flex align-items-center justify-content-center"
       >
-        <h1 class="display-1 py-5 mt-5 px-3 company--header">
+        <h1 class="display-1 py-5 px-3 company--header">
           A modern publishing platform
         </h1>
         <p class="lead px-5">Grow your audience and build your online brand</p>
